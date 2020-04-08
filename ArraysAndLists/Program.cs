@@ -7,9 +7,6 @@ namespace ArraysAndLists
     {
         static void Main(string[] args)
         {
-            //TODO:
-
-            // Create an int Array and populate numbers 1-10
             int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             var evens = new List<int>();
@@ -49,6 +46,9 @@ namespace ArraysAndLists
                 Console.WriteLine(evens[i]);
             }
             
+            //TODO:
+
+            // Create an int Array and populate numbers 1-10
             /* Create two Lists of type int.
              * Name one List "evens"
              * Name the other List "odds"
